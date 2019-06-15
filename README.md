@@ -1,3 +1,3 @@
-# fundamentos
+# Fundamentos
 
-# Repositorio para las clases del ADM
+Repositorio para las clases del ADM
