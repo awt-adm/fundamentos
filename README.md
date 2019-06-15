@@ -1,5 +1,8 @@
-# fundamentos
+# Fundamentos
 
+<<<<<<< HEAD
+Repositorio para las clases del ADM
+=======
 # Repositorio para las clases del ADM
 
 ## Clase 1
@@ -50,3 +53,4 @@
       - Switch
       - For
       - While
+>>>>>>> dc6adc408277f7c32c123ca3c2794d12b1f47db7
