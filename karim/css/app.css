@@ -1,0 +1,89 @@
+/*Fuentes*/
+@@import "https://fonts.googleapis.com/css?family=Inconsolata|Quicksand&display=swap";
+
+/*Variable*/
+/*Las variables css se declaran con 2 guiones e igualando a un valor*/
+
+:root{
+  /*colores*/
+  --color-black: #000;
+  --color-white: #FFF;
+  --color-1: #459210;
+  --color-2: red;
+  --color-link: orange;
+  --color-hover: purple;
+  /*espaciado*/
+  --margin-1: 8px;
+  --margin-2: 16px;
+  --margin-3: 32px;
+  --padding-1: 8px;
+  --padding-2: 16px;
+  --padding-3: 32px;
+
+  /*Borde*/
+  --border-radius:5px;
+
+/*Fuentes*/
+--font-title: "Quicksand", sans-serif;
+--font-content: "Inconsolata";
+
+}
+
+/*General*/
+*{
+  /*wireframe*/
+  outline: 1px solid lime;
+
+}
+
+body{
+  font-family: var(--font-content);
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-family: var(--font-title);
+}
+
+div {
+  height: 100%;
+}
+
+a{
+  color: var(--color-link)
+}
+
+a:hover{
+  color: var(--color-hover);
+}
+
+header{
+  min-height: 80px;
+}
+
+header figure img{
+  height: 80px;
+  width: auto;
+}
+
+#index{
+  height: 66vh;
+}
+#index row{
+  position: relative;
+}
+.index-img{
+  position: absolute;
+  height: 66vh;
+  width: 100%;
+}
+
+.index-img img{
+  height: 100%;
+  width: 100%;
+}
+
+/*resets*/
+.ha {
+  height: auto;
+
+}
