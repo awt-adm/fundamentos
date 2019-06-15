@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="widht=device-widht. initial-scale=1.0"
+    <title>Clase 1</title>
+  </head>
+  <body>
+
+    <h1 id="titulo">Clase 1 de fundamentos de la programacion ADM</h1>
+    <h2 id="subtitulo">Clase 1 de fundamentos de la programacion ADM</h2>
+    <script type="text/javascript">
+
+      // jquery
+      // $(document).ready(function(){
+      //   alert("ready Jquery");
+      //   console.log("consola Jquery");
+      // })
+
+      // vanilla js
+      // esta funcion esta encapsulada
+       (
+       function($){
+
+        inicio ()
+        estilos ()
+        contenido()
+
+      }()
+      )
+
+      //como se escribe una funcion
+      function inicio(){
+
+        alert("estoy dentro de una funcion")
+        console.log("XXXXXXXX")
+
+      }
+
+      function estilos(){
+
+        document.getElementById("titulo").style.cursor ="pointer"
+        // en ccs es cursor: pointer;
+        document.getElementById("titulo").style.background ="purple"
+        // background: purple;
+        document.getElementById("titulo").style.color ="whitesmoke"
+        // color: whitesmoke;
+
+      }
+
+      function contenido(){
+
+      document.getElementById("subtitulo").innerHTML="nuevo contenido"
+
+      }
+    </script>
+
+  </body>
+</html>
