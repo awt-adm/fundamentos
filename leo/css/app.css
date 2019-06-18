@@ -1,6 +1,10 @@
 /*Fuentes*/
 @import url('https://fonts.googleapis.com/css?family=Baloo+Bhai|Montserrat|Open+Sans+Condensed:300&display=swap');
 
+* {
+  box-sizing: border-box;
+}
+
 /*Variables*/
 /*Las variables css se declaran con 2 guiones e igualando a un valor*/
 :root {
@@ -51,8 +55,18 @@ a.hover{
   color: var(color-hover);
 }
 /*Header*/
+
 header {
   min-height:80px;
+  display: flex;
+  align-items: center;
+}
+
+@media (min-width: 700px) {
+  .leading {
+    display: flex;
+    align-items: center;
+  }
 }
 
 header figure img{
@@ -89,4 +103,16 @@ header figure img{
 /*RESET*/
 .ha {
   height: auto;
+}
+/*Portfolio*/
+
+.container-fluid {
+  position: relative;
+}
+
+.col-4 img{
+  margin: 0 auto;
+  height: 250px;
+  width: auto;
+  display: table !important;
 }
