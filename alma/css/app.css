@@ -1,0 +1,76 @@
+/* fuentes */
+@import "https://fonts.googleapis.com/css?family=Noto+Sans+HK";
+@@import "https://fonts.googleapis.com/css?family=Bitter&display=swap";
+/* variable */
+/* Las variables css se declaran con 2 guones e igualando a un valor*/
+:root {
+  /* colores */
+  --color-black: #000;
+  -color-white: #FFF;
+  --color-1: #567833;
+  --color-2: #gray;
+  --color-link: orange;
+  --color-hover: purple;
+  /* espaciado */
+  --padding-1: 8px;
+  --padding-2: 16px;
+  --padding-3: 32px;
+  --margin-1: 8px;
+  --margin-2: 16px;
+  --margin-3: 32px;
+  /*Bordes */
+  --border-radius: 5px;
+  /* fuentes */
+  --font-title: "Bitter", sans-serif;
+  --font-content: "Noto Sans Hk";
+}
+/* General */
+*{
+  /* wireframe */
+  outline: 1px solid red;
+}
+body {
+  font-family: var(--font-content);
+
+}
+h1,h2,h3,h4,h5,h6 {
+  font-family: var(--font-title);
+}
+
+div{
+  height: 100%;
+}
+a{
+color: var(--color-link);
+}
+a:hover{
+color: var(--color-hover);
+}
+header{
+  min-height: 80px;
+}
+
+header figure img{
+  min-height: 80px;
+  width: auto;
+}
+/*inbex*/
+#index{
+  height: 66vh;
+}
+#index row {
+  position: relative;
+}
+.index-img{
+  position: absolute;
+  height: 66vh;
+  width: 100%;
+}
+.index-img img{
+  height: 100%;
+  width: 100%;
+}
+/*resets*/
+.ha{
+  height: auto;
+}

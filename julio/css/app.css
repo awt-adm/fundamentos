@@ -1,0 +1,93 @@
+/*fuentes*/
+@import "https://fonts.googleapis.com/css?family=B612+Mono|Source+Sans+Pro&display=swap";
+
+/* variables */
+/* se declaran con dos guiones e igualando con dos puntos a un valor*/
+
+:root {
+  /*colores*/
+  --color-black: #000;
+  --color-white: #FFF;
+  --color-1: #459210;
+  --color-2: red;
+  --color-link: orange;
+  --color-hover: purple;
+
+  /*espaciado*/
+  --margin-1: 8px;
+  --margin-2: 16px;
+  --margin-3: 32px;
+  --padding-1: 8px;
+  --padding-2: 16px;
+  --padding-3: 32px;
+
+  /*bordes*/
+  --border-radius: 5px;
+
+  /*fuentes*/
+  --font-title: "Source Sans Pro", sans-serif;
+  --font-content: "B612 Mono":
+}
+
+/*General*/
+* {/*wireframe*/
+  outline: 1px solid lime;
+}
+
+body {
+  font-family: var(--font-content);
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: var(--font-title);
+}
+
+div {
+  height: 100%;
+}
+
+a {
+  color: var(color-link);
+}
+
+a:hover {
+  color: var(color-hover);
+}
+
+/*header*/
+header {
+  min-height: 80px;
+}
+
+header figure img {
+  height: 80px;
+  width: auto;
+}
+
+/*index*/
+
+#index {
+  height: 66vh;
+}
+
+#index row {
+  position: relative;
+}
+
+.index-img {
+  position: absolute;
+  height: 66vh;
+  widht: 100%;
+}
+
+.index-img img {
+  height: 100%;
+  widht: 100%;
+}
+
+
+/* resets */
+
+.ha {
+  height: auto;
+}
