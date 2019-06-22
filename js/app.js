@@ -1,20 +1,15 @@
 $(document).ready(()=>{
 
-  imagenes()
-  indexSlider()
+imagenes()
+
 
 })
 
-function imagenes() {
+function imgagenes() {
 
   $(".imgLiquid.imgLiquidFill").imgLiquid();
   $(".imgLiquid.imgLiquidNoFill").imgLiquid({
     fill:false
   });
 
-}
-
-function indexSlider() {
-  
-  $("#team-slider").slick()
 }
