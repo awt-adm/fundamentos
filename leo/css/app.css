@@ -47,13 +47,15 @@ h1,h2,h3,h4,h5,h6{
 div{
   height: 100%;
 }
-a.link{
+
+a{
   color: var(color-link);
 }
-}
+
 a.hover{
   color: var(color-hover);
 }
+
 /*Header*/
 
 header {
@@ -93,39 +95,43 @@ header figure img{
   width: 100%;
 }
 
-.index-img img {
+.servicio-img{
   position: absolute;
-  height: 100%;
-  width: auto;
+  height: auto%;
+  width: auto%;
+}
+.index-servicio{
+  height: 280px;
+  position:relative;
+
 }
 
-.index-img img {
+.index-titulo{
+padding: var(--padding-3) 0px;
+}
+
+.index-img img{
   height: 100%;
   width: 100%;
-}
-
-/*RESET*/
-.ha {
-  height: auto;
-}
-
-/*Portfolio*/
-#portfolio row{
-  position: absolute;
-  height: 66vh;
-}
-
-.col-4 img{
-  position: relative;
-
-  margin: 0 auto;
-  height: 250px;
-  width: auto;
-  display: table !important;
 }
 
 /*End Portfolio*/
 
 /*Slider*/
 
+#index-team{
+  height: 320px;
+
+}
+
+
+
 /*End Slider*/
+
+/*RESETS*/
+.ha {
+  height: auto;
+}
+.no-padding {
+  padding: 0;
+}
