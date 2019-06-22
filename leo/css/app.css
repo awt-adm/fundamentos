@@ -1,0 +1,131 @@
+/*Fuentes*/
+@import url('https://fonts.googleapis.com/css?family=Baloo+Bhai|Montserrat|Open+Sans+Condensed:300&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+/*Variables*/
+/*Las variables css se declaran con 2 guiones e igualando a un valor*/
+:root {
+
+  /*colores*/
+  --color-black:#000000;
+  --color-white:#ffffff;
+  --color-1:#459210;
+  --color-2:#877325;
+  --color-link:orange;
+  --color-hover:purple;
+
+  /*espaciado*/
+  --margin-1:8px;
+  --margin-2:16px;
+  --margin-3:32px;
+  --padding-1:8px;
+  --padding-2:16px;
+  --padding-3:32px;
+
+  /*Bordes*/
+  --border-radius: 5px;
+
+  /*fuentes*/
+  --font-title:"Montserrat";
+  --font-content:"Open+Sans+Condensed";
+}
+
+/*GENERAL*/
+*{ /*wireframe*/
+  outline: 1px solid gray;
+}
+
+body{
+  font-family: var(--font-content);
+}
+h1,h2,h3,h4,h5,h6{
+  font-family: var(--font-title);
+}
+div{
+  height: 100%;
+}
+a.link{
+  color: var(color-link);
+}
+}
+a.hover{
+  color: var(color-hover);
+}
+/*Header*/
+
+header {
+  min-height:80px;
+  display: flex;
+  align-items: center;
+}
+
+@media (min-width: 700px) {
+  .leading {
+    display: flex;
+    align-items: center;
+  }
+}
+
+header figure img{
+  height: 80px;
+  width: auto;
+}
+
+/* index */
+.index-titulo{
+  padding: var(--padding-2) 0px;
+}
+
+#index{
+  height: 66vh;
+}
+
+#index row{
+  position: relative;
+}
+
+.index-img{
+  position: absolute;
+  height: 66vh;
+  width: 100%;
+}
+
+.index-img img {
+  position: absolute;
+  height: 100%;
+  width: auto;
+}
+
+.index-img img {
+  height: 100%;
+  width: 100%;
+}
+
+/*RESET*/
+.ha {
+  height: auto;
+}
+
+/*Portfolio*/
+#portfolio row{
+  position: absolute;
+  height: 66vh;
+}
+
+.col-4 img{
+  position: relative;
+
+  margin: 0 auto;
+  height: 250px;
+  width: auto;
+  display: table !important;
+}
+
+/*End Portfolio*/
+
+/*Slider*/
+
+/*End Slider*/
