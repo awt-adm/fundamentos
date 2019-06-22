@@ -1,0 +1,110 @@
+/* Fuentes */
+@import "https://fonts.googleapis.com/css?family=Encode+Sans+Expanded|Lato";
+
+/* variable*/
+/*Las variables css se declarn con 2 guiones e igualando a un valor*/
+:root {
+  /* Colores */
+  --color-black:#000000;
+  --color-white: #ffffff;
+  --color-1: #ff6600;
+  --color-2: #4b4b4b;
+  --color-link:purple;
+  --color-hover:red;
+/*espaciado*/
+--margin-1: 8px;
+--margin-2:16px;
+--margin-3:32px;
+--padding-1: 8px;
+--padding-2:16px;
+--padding-3:32px;
+
+/* Bordes */
+--border-raduis: 5px;
+
+/* Fuentes */
+
+--font-title: "Encode Sans Expanded" ,sans-serif;
+--font-content: "Lato";
+}
+
+/* General */
+*{ /*wireframe*/
+  outline: 1px solid lime;
+}
+body{
+  font-family: var(--font-content);
+}
+h1,h2,h3,h4,h5,h5{
+  font-family: var(--font-title);
+}
+
+div{
+  height: 100%;
+}
+
+a{
+  color: var(--color-link);
+}
+
+a:hover{
+  color: var(--color-hover);
+}
+
+/*estilos header*/
+
+header {
+  min-height: 80px;
+}
+header figure img{
+  height: 80px;
+  width: auto;;
+}
+
+/* INDEX */
+
+.index-titulo{
+  padding: var(--padding-3) 0px;
+}
+
+#index{
+  height: 66vh;
+}
+
+#index row{
+  position: relative;
+}
+.index-img {
+  position: absolute;
+  height: 66vh;
+  width: 100%;
+}
+
+.index-img img{
+  height: 100%;
+  width: 100;
+}
+
+/*index servicio*/
+
+.index-servicio {
+  height: 280px;
+  position: relative;
+}
+
+
+.servicio-img {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+
+/*resets*/
+.ha{
+  height: auto !important;
+}
+
+.no-padding {
+  padding: 0 !important;
+}

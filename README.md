@@ -1,18 +1,32 @@
 # Fundamentos
 
-<<<<<<< HEAD
-Repositorio para las clases del ADM
-=======
 # Repositorio para las clases del ADM
 
 ## Clase 1
-- MD
-  - Headings
-  - Listas
+- ##### POO 1
+  - Fundamentos
+    - [OOP / POO](https://codesolt.com/tutoriales/fundamentos/programacion-orientada-objetos/)
+    - [OOP / POO](https://msdn.microsoft.com/es-es/library/bb972232.aspx)
+    - [ECMASrypt 6](https://www.youtube.com/watch?v=OjMZg9gTLgw)  
+    - [JS](https://www.youtube.com/watch?v=k9wTpG8NI4Q)  
 - GIT
+  - ¿Qué es Git?
+  - Instalación
+    - Linux / MacOS [Git](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=4&cad=rja&uact=8&ved=2ahUKEwjtgsPUycDeAhVFSq0KHS-IBywQFjADegQIBBAB&url=https%3A%2F%2Fgit-scm.com%2Fbook%2Fen%2Fv2%2FGetting-Started-Installing-Git&usg=AOvVaw34_NoLPGdtnUVR92ZCaR9H)
+    - Windows [Git for windows](https://gitforwindows.org/)
+    - Comandos básicos
+    - configure
+    - status
+    - add
+    - commit
+    - push
+    - pull
+    - checkout
+    - branch
+    - merge
 
 ## Clase 2
-#### POO
+#### POO 2
 - Sintaxis
  - Variables (No Tipado)
    - Espacio en memoria que contiene cualquier valor, Se antepone el nombre de la variable:
@@ -53,4 +67,21 @@ Repositorio para las clases del ADM
       - Switch
       - For
       - While
->>>>>>> dc6adc408277f7c32c123ca3c2794d12b1f47db7
+### Repaso HTML + CSS 1
+- Template básico HTML
+  - Wireframe LoFi
+  - Maqueta
+    - CSS
+    - Bootstrap 4
+      - Grid
+      - Navbar
+
+## Clase 3
+### Repaso HTML + CSS 2
+- Template básico HTML
+  - Home
+  - Páginas internas
+  - Setup dependencias JS
+    - jQuery
+    - Slick Slider
+    - imgLiquid
