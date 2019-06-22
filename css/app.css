@@ -1,4 +1,92 @@
-p {
-font-size: 50px;
 
+/*  Fuentes*/
+@import "https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Ubuntu";
+/* variable */
+/* Las variables css se declaran con 2 guiones e igualando a un valor */
+:root {
+  /*  colores */
+  --color-black: #000;
+  --color-white: #FFF;
+  --color-1: #459210;
+  --color-2: red;
+  --color-link: orange;
+  --color-hover: purple;
+  /* espaciado */
+  --padding-1: 8px;
+  --padding-2: 16px;
+  --padding-3: 32px;
+  --margin-1: 8px;
+  --margin-2: 16px;
+  --margin-3: 32px;
+  /* Bordes */
+  --border-radius: 5px;
+  /* Fuentes */
+  --font-title: "Open Sans Condensed",sans-serif;
+  --font-content: "Ubuntu";
+}
+/* General */
+* {/*wireframe*/
+  outline: 1px solid lime;
+}
+body {
+  font-family: var(--font-content);
+}
+h1,h2,h3,h4,h5,h6 {
+  font-family: var(--font-title);
+}
+div {
+  height: 100%;
+}
+a {
+  color: var(--color-link);
+}
+a:hover {
+  color: var(--color-hover);
+}
+/*  */
+/* header */
+header {
+  min-height: 80px;
+}
+header figure img {
+  height: 80px;
+  width: auto;
+}
+/* index */
+.index-titulo{
+  padding: var(--padding-3)0px;
+}
+#index {
+  height: 66vh;
+}
+#index row {
+  position: relative;
+}
+.index-img,  .servicio-img {
+  position: absolute;
+  height: 66vh;
+  width: 100%;
+}
+.index-img img {
+  height: 100%;
+  width: 100%;
+}
+/* servicios */
+.index-servicio{
+  height: 280px;
+  position: relative;
+}
+.servicio-img {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+
+
+/* resets */
+.ha {
+  height: auto;
+}
+
+.no padding {
+  padding: 0 ;
 }
