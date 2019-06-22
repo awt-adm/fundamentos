@@ -65,6 +65,7 @@ header figure img{
   width: auto;
 }
 
+
 #index{
   height: 66vh;
 }
@@ -77,13 +78,36 @@ header figure img{
   width: 100%;
 }
 
+.servicio-img{
+  position: absolute;
+  height: auto%;
+  width: auto%;
+}
+.index-servicio{
+  height: 280px;
+  position:relative;
+
+}
+
+.index-titulo{
+padding: var(--padding-3) 0px;
+}
+
 .index-img img{
   height: 100%;
   width: 100%;
+}
+
+#index-team{
+  height: 320px;
 }
 
 /*resets*/
 .ha {
   height: auto;
 
+}
+
+.no-padding {
+  padding: 0;
 }

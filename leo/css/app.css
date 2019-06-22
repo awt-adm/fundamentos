@@ -71,10 +71,14 @@ header {
 
 header figure img{
   height: 80px;
-  width: auto;;
+  width: auto;
 }
 
 /* index */
+.index-titulo{
+  padding: var(--padding-2) 0px;
+}
+
 #index{
   height: 66vh;
 }
@@ -104,15 +108,24 @@ header figure img{
 .ha {
   height: auto;
 }
-/*Portfolio*/
 
-.container-fluid {
-  position: relative;
+/*Portfolio*/
+#portfolio row{
+  position: absolute;
+  height: 66vh;
 }
 
 .col-4 img{
+  position: relative;
+
   margin: 0 auto;
   height: 250px;
   width: auto;
   display: table !important;
 }
+
+/*End Portfolio*/
+
+/*Slider*/
+
+/*End Slider*/
