@@ -1,6 +1,7 @@
 $(document).ready(()=>{
 
   imagenes()
+ indexSlider()
 
 })
 
@@ -10,5 +11,11 @@ function imagenes() {
   $(".imgLiquid.imgLiquidNoFill").imgLiquid({
     fill:false
   });
+
+}
+
+function indexSlider() {
+
+  $("#team-slider").slick()
 
 }

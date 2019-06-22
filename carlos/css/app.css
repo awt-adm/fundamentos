@@ -80,6 +80,10 @@ header figure img {
   height: 100%;
   width: 100%;
 }
+/* indes slider */
+#index-team {
+  height: 320px;
+}
 /* resets */
 .ha {
   height: auto;
