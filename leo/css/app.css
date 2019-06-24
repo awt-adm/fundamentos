@@ -124,8 +124,22 @@ padding: var(--padding-3) 0px;
 
 }
 
+.contacto{
+  height: calc(50vh - 100px);
+  width: calc(50vh - 100px);
+  border: black solid;
+}
 
+.avatar{
+  height: 120px;
+  width: 120px;
+ shape-outside: circle(closest-side at 50% 50%)}
 
+.info-contacto{
+  position: relative;
+  text-align: center;
+
+}
 /*End Slider*/
 
 /*RESETS*/

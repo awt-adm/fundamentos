@@ -2,6 +2,7 @@ $(document).ready(()=>{
 
   imgLiquid()
   indexSlider()
+
 })
 
 function imgLiquid(){
@@ -16,5 +17,15 @@ function imgLiquid(){
 
 function indexSlider() {
   //*alert("ooskfokoe")*//
-  $("#team-slider").slick()
+
+  $('.team-slider').slick({
+    autoplay: true,
+    autoplaySpeed: 2000,
+    fade: true,
+    arrows: false,
+    infinite: true,
+    cssEase: 'linear',
+    centermode: true
+
+  });
 }
