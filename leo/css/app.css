@@ -43,6 +43,7 @@ body{
 }
 h1,h2,h3,h4,h5,h6{
   font-family: var(--font-title);
+  text-align: center;
 }
 div{
   height: 100%;
@@ -124,20 +125,18 @@ padding: var(--padding-3) 0px;
 
 }
 
-.contacto{
+.contact{
   height: calc(50vh - 100px);
   width: calc(50vh - 100px);
   border: black solid;
+  border-radius: 50%;
 }
 
-.avatar{
-  height: 120px;
-  width: 120px;
- shape-outside: circle(closest-side at 50% 50%)}
-
-.info-contacto{
+.info-contact{
   position: relative;
   text-align: center;
+
+
 
 }
 /*End Slider*/
