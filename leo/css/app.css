@@ -1,6 +1,9 @@
 /*Fuentes*/
 @import url('https://fonts.googleapis.com/css?family=Baloo+Bhai|Montserrat|Open+Sans+Condensed:300&display=swap');
 
+@import "sassy-buttons"
+
+
 * {
   box-sizing: border-box;
 }
@@ -77,6 +80,11 @@ header figure img{
   width: auto;
 }
 
+.navbar-collapse .navbar-nav{
+  color: white;
+  background-color: black;
+}
+
 /* index */
 .index-titulo{
   padding: var(--padding-2) 0px;
@@ -108,7 +116,7 @@ header figure img{
 }
 
 .index-titulo{
-padding: var(--padding-3) 0px;
+  padding: var(--padding-3) 0px;
 }
 
 .index-img img{
@@ -121,7 +129,8 @@ padding: var(--padding-3) 0px;
 /*Slider*/
 
 #index-team{
-  height: 320px;
+  height: 100%;
+  position: relative;
 
 }
 
@@ -130,16 +139,34 @@ padding: var(--padding-3) 0px;
   width: calc(50vh - 100px);
   border: black solid;
   border-radius: 50%;
+  margin: auto;
 }
 
 .info-contact{
+  padding: 5px;
   position: relative;
   text-align: center;
-
-
+  height: 100%;
 
 }
 /*End Slider*/
+
+
+/*Footer*/
+
+.btn .fab{
+  color: white;
+  border-radius: 10%;
+  height: 50px;
+  width: 50px;
+  text-align: center;
+
+}
+
+/*End Footer*/
+
+
+
 
 /*RESETS*/
 .ha {
