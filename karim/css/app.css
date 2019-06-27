@@ -1,6 +1,5 @@
 /*Fuentes*/
-@@import "https://fonts.googleapis.com/css?family=Inconsolata|Quicksand&display=swap";
-
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script|Nunito|Reenie+Beanie|Staatliches&display=swap');
 /*Variable*/
 /*Las variables css se declaran con 2 guiones e igualando a un valor*/
 
@@ -24,8 +23,8 @@
   --border-radius:5px;
 
 /*Fuentes*/
---font-title: "Quicksand", sans-serif;
---font-content: "Inconsolata";
+--font-title-:'Playfair Display', serif;
+--font-content: 'Nunito', sans-serif;
 
 }
 
@@ -65,9 +64,13 @@ header figure img{
   width: auto;
 }
 
+#head{
+  font-family: 'Staatliches', cursive;
+}
 
 #index{
   height: 66vh;
+  color: white;
 }
 #index row{
   position: relative;
@@ -102,6 +105,44 @@ padding: var(--padding-3) 0px;
   height: 320px;
 }
 
+#vero{
+  color: white;
+
+}
+
+#banneru {
+  color: #FF8500;
+}
+
+#camila {
+  color: white;
+}
+
+#ana {
+  color: white;
+}
+
+#karina {
+  color: white;
+}
+
+#miena{
+  color: white;
+}
+
+#rose{
+ color:white;
+}
+
+#song{
+  color: #FFAA00;
+  font-family: 'Reenie Beanie', cursive;
+  font-size: 22px;
+}
+
+#footer {
+padding: var(--padding-3) 0px;
+}
 /*resets*/
 .ha {
   height: auto;
