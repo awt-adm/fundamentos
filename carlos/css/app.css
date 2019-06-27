@@ -52,6 +52,9 @@ header figure img {
   width: auto;
 }
 /* index */
+.index-titulo {
+  padding: var(--padding-3) 0px;
+}
 #index {
   height: 66vh;
 }
@@ -67,9 +70,24 @@ header figure img {
   height: 100%;
   width: 100%;
 }
-
-
+/* index servicios */
+.index-servicio {
+  height: 280px;
+  position: relative;
+}
+.servicio-img {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+/* indes slider */
+#index-team {
+  height: 320px;
+}
 /* resets */
 .ha {
   height: auto;
+}
+.no-padding {
+  padding: 0;
 }

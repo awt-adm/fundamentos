@@ -1,10 +1,11 @@
 /*fuentes*/
 @import "https://fonts.googleapis.com/css?family=Noto+Sans+HK&display=swap";
 @import "https://fonts.googleapis.com/css?family=Montserrat&display=swap";
+
 /* variables */
 /*las variables css se declaran con dos guines e igualando aun valor*/
-:root {
 
+:root {
   /* colores */
   --color-black: #0000;
   --color-white: #FFFFFF;
@@ -29,13 +30,14 @@
   --font-content:"Montserrat";
 }
 
-/*genenral*/
+/*general*/
 *{/*wireframe*/
-  outline: 1px solid lime;
+  outline: 1px solid gray;
 }
 body{
   font-family: var(--font-content);
 }
+
 h1,h2,h3,h4,h5,h6 {
   font-family: var(--font-title);
 }
@@ -43,6 +45,7 @@ h1,h2,h3,h4,h5,h6 {
 div {
   height: 100%;
 }
+
 a{
   color: var(--color-link);
 }
@@ -64,8 +67,16 @@ header figure img {
   height: 66vh;
 }
 
+.index-titulo {
+  padding: var(--padding-3) 0px;
+}
+
 #index row{
   position: relative;
+}
+
+.index-titulo {
+  padding: var(--padding-3) 0px;
 }
 
 .index-img {
@@ -75,16 +86,32 @@ header figure img {
 }
 
 .index-img img {
+  height: 100%;
+  width: 100%;
+}
+/*index sericio*/
+.index-servicio {
+  height: 280px;
+  position: relative;
+}
+
+/*index slider*/
+#index-team {
+  height: 320px;
+}
+
+.servicio-img {
   position: absolute;
   height: 100%;
   width: 100%;
 }
-.index-img img {
-  height: 100%;
-  width: 100%;
-}
 
-/*reset*/
+/* reset */
+
 .ha {
 height: auto;
+}
+
+.no-padding {
+  padding: 0;
 }

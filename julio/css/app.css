@@ -74,20 +74,48 @@ header figure img {
   position: relative;
 }
 
+.index-titulo {
+  padding: var(--padding-3) 0px;
+}
+
 .index-img {
   position: absolute;
   height: 66vh;
   widht: 100%;
 }
 
+
 .index-img img {
   height: 100%;
   widht: 100%;
 }
 
+/*Index Servicios*/
+
+.index-servicio {
+  height: 280px;
+  position: relative;
+}
+
+.servicio-img {
+  position: absolute;
+  height: 100%;
+  widht: 100%;
+}
+
+/*Index Team*/
+
+#index-team{
+  height: 320px;
+  
+}
 
 /* resets */
 
 .ha {
   height: auto;
+}
+
+.no-padding {
+  padding: 0;
 }

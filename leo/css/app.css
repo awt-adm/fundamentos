@@ -1,6 +1,9 @@
 /*Fuentes*/
 @import url('https://fonts.googleapis.com/css?family=Baloo+Bhai|Montserrat|Open+Sans+Condensed:300&display=swap');
 
+@import "sassy-buttons"
+
+
 * {
   box-sizing: border-box;
 }
@@ -43,17 +46,20 @@ body{
 }
 h1,h2,h3,h4,h5,h6{
   font-family: var(--font-title);
+  text-align: center;
 }
 div{
   height: 100%;
 }
-a.link{
+
+a{
   color: var(color-link);
 }
-}
+
 a.hover{
   color: var(color-hover);
 }
+
 /*Header*/
 
 header {
@@ -72,6 +78,11 @@ header {
 header figure img{
   height: 80px;
   width: auto;
+}
+
+.navbar-collapse .navbar-nav{
+  color: white;
+  background-color: black;
 }
 
 /* index */
@@ -93,39 +104,74 @@ header figure img{
   width: 100%;
 }
 
-.index-img img {
+.servicio-img{
   position: absolute;
-  height: 100%;
-  width: auto;
+  height: auto%;
+  width: auto%;
+}
+.index-servicio{
+  height: 280px;
+  position:relative;
+
 }
 
-.index-img img {
+.index-titulo{
+  padding: var(--padding-3) 0px;
+}
+
+.index-img img{
   height: 100%;
   width: 100%;
-}
-
-/*RESET*/
-.ha {
-  height: auto;
-}
-
-/*Portfolio*/
-#portfolio row{
-  position: absolute;
-  height: 66vh;
-}
-
-.col-4 img{
-  position: relative;
-
-  margin: 0 auto;
-  height: 250px;
-  width: auto;
-  display: table !important;
 }
 
 /*End Portfolio*/
 
 /*Slider*/
 
+#index-team{
+  height: 100%;
+  position: relative;
+
+}
+
+.contact{
+  height: calc(50vh - 100px);
+  width: calc(50vh - 100px);
+  border: black solid;
+  border-radius: 50%;
+  margin: auto;
+}
+
+.info-contact{
+  padding: 5px;
+  position: relative;
+  text-align: center;
+  height: 100%;
+
+}
 /*End Slider*/
+
+
+/*Footer*/
+
+.btn .fab{
+  color: white;
+  border-radius: 10%;
+  height: 50px;
+  width: 50px;
+  text-align: center;
+
+}
+
+/*End Footer*/
+
+
+
+
+/*RESETS*/
+.ha {
+  height: auto;
+}
+.no-padding {
+  padding: 0;
+}

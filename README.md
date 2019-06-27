@@ -1,8 +1,8 @@
 # Fundamentos
 
-# Repositorio para las clases del ADM
+# Repositorio de la clase Web Technologies ADM
 
-## Clase 1
+## **Clase 1**
 - ##### POO 1
   - Fundamentos
     - [OOP / POO](https://codesolt.com/tutoriales/fundamentos/programacion-orientada-objetos/)
@@ -15,17 +15,14 @@
     - Linux / MacOS [Git](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=4&cad=rja&uact=8&ved=2ahUKEwjtgsPUycDeAhVFSq0KHS-IBywQFjADegQIBBAB&url=https%3A%2F%2Fgit-scm.com%2Fbook%2Fen%2Fv2%2FGetting-Started-Installing-Git&usg=AOvVaw34_NoLPGdtnUVR92ZCaR9H)
     - Windows [Git for windows](https://gitforwindows.org/)
     - Comandos básicos
-    - configure
-    - status
-    - add
-    - commit
-    - push
-    - pull
-    - checkout
-    - branch
-    - merge
+      - configure
+      - status
+      - add
+      - commit
+      - pull
+      - push
 
-## Clase 2
+## **Clase 2**
 #### POO 2
 - Sintaxis
  - Variables (No Tipado)
@@ -67,21 +64,35 @@
       - Switch
       - For
       - While
-### Repaso HTML + CSS 1
-- Template básico HTML
-  - Wireframe LoFi
-  - Maqueta
-    - CSS
-    - Bootstrap 4
-      - Grid
-      - Navbar
 
-## Clase 3
-### Repaso HTML + CSS 2
-- Template básico HTML
-  - Home
-  - Páginas internas
-  - Setup dependencias JS
+#### Creación de un 'landing page' p1
+- Crear Wireframe Lofi
+- Crar una maqueta HTML CSS JS
+  - Maquetación
+    - Organización proyecto
+    - HTML
+      - Index
+      - Header responsivo
+      - Modulo(section) Hero Screen
+    - CSS
+      - Variables
+      - Estilos generales
+      - Preparación dependencias
+          - Bootstrap
+            - Grid
+            - Navbar
+            - Centrado vertical
+
+## **Clase 3**
+#### Creación de un 'landing page' p2
+- Continúa Maquetación
+  - HTML
+    - Grid
+    - slider
+    - footer
+  - CSS personalizado + estilos con bootstrap
+    - Resets
+  - JS (preparación dependencias)
     - jQuery
     - Slick Slider
     - imgLiquid

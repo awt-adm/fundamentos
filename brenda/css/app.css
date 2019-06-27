@@ -99,6 +99,10 @@ header figure img{
   width: 100%;
 }
 
+/*Index slider*/
+#index-team{
+  height: 320px;
+}
 
 /*resets*/
 .ha{
