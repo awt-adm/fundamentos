@@ -1,5 +1,6 @@
 /*  Fuentes*/
 @import "https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Ubuntu";
+@import "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
 /* variable */
 /* Las variables css se declaran con 2 guiones e igualando a un valor */
 :root {
@@ -42,6 +43,10 @@ a {
 a:hover {
   color: var(--color-hover);
 }
+ul {
+  list-style-type: none;
+  margin: 0;
+}
 /*  */
 /* header */
 header {
@@ -80,9 +85,15 @@ header figure img {
   height: 100%;
   width: 100%;
 }
-/* indes slider */
+/* Team slider */
 #index-team {
-  height: 320px;
+  height: auto;
+}
+.team-slide {
+  height: 420px;
+}
+footer {
+  height: 80px;
 }
 /* resets */
 .ha {
