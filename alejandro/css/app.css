@@ -1,0 +1,104 @@
+/*  Fuentes*/
+@import "https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Ubuntu";
+@import "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+/* variable */
+/* Las variables css se declaran con 2 guiones e igualando a un valor */
+:root {
+  /*  colores */
+  --color-black: #000;
+  --color-white: #FFF;
+  --color-1: #459210;
+  --color-2: red;
+  --color-link: orange;
+  --color-hover: purple;
+  /* espaciado */
+  --padding-1: 8px;
+  --padding-2: 16px;
+  --padding-3: 32px;
+  --margin-1: 8px;
+  --margin-2: 16px;
+  --margin-3: 32px;
+  /* Bordes */
+  --border-radius: 5px;
+  /* Fuentes */
+  --font-title: "Open Sans Condensed",sans-serif;
+  --font-content: "Ubunutu";
+}
+/* General */
+* {/*wireframe*/
+  outline: 1px solid lime;
+}
+body {
+  font-family: var(--font-content);
+}
+h1,h2,h3,h4,h5,h6 {
+  font-family: var(--font-title);
+}
+div {
+  height: 100%;
+}
+a {
+  color: var(--color-link);
+}
+a:hover {
+  color: var(--color-hover);
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+}
+/*  */
+/* header */
+header {
+  min-height: 80px;
+}
+header figure img {
+  height: 80px;
+  width: auto;
+}
+/* index */
+.index-titulo {
+  padding: var(--padding-3) 0px;
+}
+#index {
+  height: 66vh;
+}
+#index row {
+  position: relative;
+}
+.index-img {
+  position: absolute;
+  height: 66vh;
+  width: 100%;
+}
+.index-img img {
+  height: 100%;
+  width: 100%;
+}
+/* index servicios */
+.index-servicio {
+  height: 280px;
+  position: relative;
+}
+.servicio-img {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+/* Team slider */
+#index-team {
+  height: auto;
+}
+.team-slide {
+  height: 420px;
+}
+footer {
+  height: 80px;
+}
+/* resets */
+.ha {
+  height: auto;
+}
+.no-padding {
+  padding: 0;
+}
