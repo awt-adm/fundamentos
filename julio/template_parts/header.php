@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="widht=device-widht. initial-scale=1.0">
-  <title>clase 2</title>
+  <title>clase 4</title>
   <!-- estilos -->
   <link rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" href="css/slick.css">
@@ -28,17 +28,3 @@
       </ul>
     </nav>
   </header>
-
-<section class="page">
-
-</section>
-
-    <!-- scripts -->
-    <script src="js/jquery.js"></script>
-    <script src="js/slick.js"></script>
-    <script src="js/bootstrap.js"></script>
-    <script src="js/imgLiquid.js"></script>
-    <script src="js/app.js"></script>
-    <!-- fin de scripts -->
-  </body>
-  </html>

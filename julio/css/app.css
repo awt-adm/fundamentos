@@ -1,5 +1,6 @@
 /*fuentes*/
 @import "https://fonts.googleapis.com/css?family=B612+Mono|Source+Sans+Pro&display=swap";
+@import "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
 
 /* variables */
 /* se declaran con dos guiones e igualando con dos puntos a un valor*/
@@ -106,8 +107,11 @@ header figure img {
 /*Index Team*/
 
 #index-team{
-  height: 320px;
+  height: auto;
+}
 
+.team-slide {
+  height: 420px;
 }
 
 /* resets */
