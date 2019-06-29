@@ -55,6 +55,11 @@ a:hover {
   color: var(color-hover);
 }
 
+ul {
+  list-style-type: none;
+  margin: 0;
+}
+
 /*header*/
 header {
   min-height: 80px;
@@ -112,6 +117,10 @@ header figure img {
 
 .team-slide {
   height: 420px;
+}
+
+footer {
+  height: 50px;
 }
 
 /* resets */
