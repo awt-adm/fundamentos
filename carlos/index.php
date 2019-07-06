@@ -1,7 +1,18 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clase 4</title>
+  <!-- estilos -->
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/slick.css">
+  <link rel="stylesheet" href="css/slick-theme.css">
+  <link rel="stylesheet" href="css/app.css">
+  <!-- fin estilos -->
+</head>
 <?php
-
 include "template_parts/header.php";
-
 ?>
 
 <!-- Heroscreen -->
@@ -191,7 +202,7 @@ include "template_parts/header.php";
 <section id="index-team" class="container">
 
   <div class="row">
-
+<?php echo "Esto es un ECHO"; ?>
     <h1 class="index-titulo col-12 text-center">Equipo</h1>
 
     <!-- slider -->
