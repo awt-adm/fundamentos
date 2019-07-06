@@ -14,7 +14,7 @@
   <link rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" href="css/slick.css">
   <link rel="stylesheet" href="css/slick-theme.css">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="css/app.css">
   <!--fin de estilos-->
 
@@ -242,11 +242,13 @@ include "template_parts/header.php";
 
 
     <!--Scripts-->
+    <script src=”https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js”></script>
     <script src="js/jquery.js" type="text/javascript"></script> <!--Siempre al principio de las dependencias-->
     <script src="js/slick.js" type="text/javascript"></script>
     <script src="js/bootstrap.js" type="text/javascript"></script>
     <script src="js/imgLiquid.js" type="text/javascript"></script>
     <script src="js/app.js" type="text/javascript"></script>
+
     <!--Final de scripts-->
 
   </body>
@@ -258,4 +260,5 @@ include "template_parts/header.php";
     ?>
   </footer>
   <!--End footer-->
+
   </html>
