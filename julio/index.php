@@ -177,23 +177,9 @@ include "template_parts/header.php";
 
     </section>
 
-    <section id="index-team" class="container">
-      <div class="row">
-        <h1 class="index-titulo col-12 text-center">Equipo</h1>
-
-        <!--slider-->
-        <div id="team-slider" class="col-12">
-
-          <!--slide-->
-          <div class="team-slide col-12 imgLiquid imgLiquidFill">
-            <img src="img/placeholder.edit.png" alt="slider">
-          </div>
-          <!--fin slide-->
-
-        </div>
-        <!--fin slider-->
-      </div>
-    </section>
+<?php
+include "template_parts/equipo.php"
+?>
 
 <?php
 include "template_parts/footer.php";

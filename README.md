@@ -60,7 +60,7 @@
 
   - Estructuras de control
     - Estructuras que nos permiten condicionar nuestro código
-      - if
+      - If
       - Switch
       - For
       - While
@@ -96,3 +96,33 @@
     - jQuery
     - Slick Slider
     - imgLiquid
+
+
+## **Clase 4**
+#### Creación de un 'landing page' p3
+- Modularización con PHP
+  - Instalar Stack: [https://www.apachefriends.org](Apache, MYSQL y PHP)
+   - MacOS - localhost
+     - XAMPP Console / Network / Habilitar localhost:8080
+     - XAMPP Console / volumes / Mount -> explore
+  - Cambio de extención en archivos .html -> .php
+- Nuevas dependencias
+  - FontAwesome CDN ->https://www.bootstrapcdn.com/fontawesome/
+    CSS '@import'
+
+    <
+    <=
+    >
+    >=
+    =
+    !=
+    ==
+    ===
+
+
+    xs (for phones - screens less than 768px wide)
+    sm (for tablets - screens equal to or greater than 768px wide)
+    md (for small laptops - screens equal to or greater than 992px wide)
+    lg (for laptops and desktops - screens equal to or greater than 1200px wide)
+
+    https://api.jquery.com
