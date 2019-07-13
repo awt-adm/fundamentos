@@ -2,6 +2,7 @@ $(document).ready(()=>{
 
   imgLiquid()
   indexSlider()
+  flex()
 
 })
 
@@ -46,3 +47,14 @@ $(document).ready(function(){
 			return false;
 		});
 });
+
+function flex(){
+//buscardiv
+let caja = $(".slick-slide div:nth-child(1)")
+
+//ponerle clase
+caja.addClass("div-flex")
+//$('.team-slider div').addClass("div-flex")
+
+
+}

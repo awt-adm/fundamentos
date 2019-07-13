@@ -131,6 +131,7 @@ header figure img{
 #index-team{
   height: 100%;
   position: relative;
+  background-color: red;
 
 }
 
@@ -147,6 +148,8 @@ header figure img{
   position: relative;
   text-align: center;
   height: 100%;
+  background-color: red;
+
 }
 /*End Slider*/
 
