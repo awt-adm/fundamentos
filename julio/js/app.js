@@ -1,6 +1,7 @@
 $(document).ready(()=>{
   imagenes()
   indexSlider()
+  flex()
 })
 
 function imagenes() {
@@ -10,5 +11,10 @@ function imagenes() {
 }
 
 function indexSlider() {
-  $("#team-slider").slick() 
+  $("#team-slider").slick()
+}
+
+function flex() {
+  let div = $(".slick-slide div:nth-child(1)")
+  return div.addClass("div-flex")
 }

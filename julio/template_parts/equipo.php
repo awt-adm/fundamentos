@@ -6,7 +6,7 @@
     <div id="team-slider" class="col-12">
 
       <!--slide-->
-      <div class="team-slide col-12">
+      <div class="team-slide col-12 col-sx-12 col-md-6 col-lg-4">
         <a href="#" class="row"><!--link al miembro-->
 
           <!--header de la tarjeta-->
