@@ -210,7 +210,7 @@ include "template_parts/header.php";
 
 
       <!-- slide -->
-      <div class="team-slide col-12 imgLiquid imgLiquidNoFill">
+      <div class="team-slider col-12 imgLiquid imgLiquidNoFill">
         <img src="img/placeholder.edit.png" alt="Slider">
       </div>
       <!-- fin slide -->
