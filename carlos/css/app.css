@@ -1,4 +1,4 @@
-/*  Fuentes*/
+/*  CDN Fonts*/
 @import "https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Ubuntu";
 @import "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
 /* variable */
@@ -22,7 +22,7 @@
   --border-radius: 5px;
   /* Fuentes */
   --font-title: "Open Sans Condensed",sans-serif;
-  --font-content: "Ubunutu";
+  --font-content: "Railway", sans-serif;
 }
 /* General */
 * {/*wireframe*/
@@ -95,6 +95,7 @@ header figure img {
 footer {
   height: 80px;
 }
+/*  */
 /* resets */
 .ha {
   height: auto;

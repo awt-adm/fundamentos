@@ -2,7 +2,7 @@
 @import 'https://fonts.googleapis.com/css?family=Baloo+Bhai|Montserrat|Open+Sans+Condensed:300&display=swap';
 
 /*Iconos*/
-@import 'https://stackpath.bootstrapcdn.com/font-awesome/5.7.0/css/font-awesome.min.css';
+@import 'https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css';
 
 * {
   box-sizing: border-box;
@@ -147,26 +147,21 @@ header figure img{
   position: relative;
   text-align: center;
   height: 100%;
-
 }
 /*End Slider*/
 
-
 /*Footer*/
-
-footer{
-  
+#back-to-top {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    display: none;
+    color: black;
+    background-color: lightgray;
+    shape-outside: circle(50%);
+    height: 30px;
+    width: 30px;
 }
-
-.btn {
-  color: white;
-  border-radius: 10%;
-  height: 50px;
-  width: 50px;
-  text-align: center;
-
-}
-
 /*End Footer*/
 
 

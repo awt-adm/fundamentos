@@ -15,10 +15,10 @@
         <a class="nav-link active" href="index.php">Home</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="servicios.html">Services</a>
+        <a class="nav-link" href="servicios.php">Services</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="equipo.html">Team</a>
+        <a class="nav-link" href="equipo.php">Team</a>
       </li>
     </ul>
 
