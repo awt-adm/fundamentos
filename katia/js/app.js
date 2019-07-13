@@ -2,7 +2,7 @@ $(document).ready(()=>{
 
   imagenes()
   indexSlider()
-
+  flex()
 })
 
 function imagenes() {
@@ -15,6 +15,12 @@ function imagenes() {
 }
 
 function indexSlider() {
-  
   $("#team-slider").slick()
+}
+
+function flex() {
+  //busca div
+let caja = $(".slick-slide div:nth-child(1)")
+  //ponerle Clase
+  caja.addClass("div-flex")
 }

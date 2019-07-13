@@ -53,6 +53,12 @@ a{
 a:hover {
   color: var(--color-hover);
 }
+
+ul {
+  list-style-type: none;
+  margin: 0;
+}
+
 /*header*/
 header {
   min-height: 80px;
@@ -96,15 +102,15 @@ header figure img {
   position: relative;
 }
 
-/*index slider*/
-#index-team {
-  height: 320px;
-}
-
 .servicio-img {
   position: absolute;
   height: 100%;
   width: 100%;
+}
+
+/*index slider*/
+#index-team {
+  height: 320px;
 }
 
 /*Team slider*/
@@ -113,8 +119,9 @@ header figure img {
   height: auto;
 }
 
-  .team-slide {
+.team-slide {
     height: 420px;
+    margin: 0 auto;
   }
 
 footer{
@@ -129,4 +136,8 @@ height: auto;
 
 .no-padding {
   padding: 0;
+}
+
+.div-flex {
+  display: flex;
 }
