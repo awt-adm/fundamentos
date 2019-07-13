@@ -245,24 +245,23 @@ include "template_parts/header.php";
     <br>
 
 
-    <!--Scripts-->
-    <script src=”https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js”></script>
-    <script src="js/jquery.js" type="text/javascript"></script> <!--Siempre al principio de las dependencias-->
-    <script src="js/slick.js" type="text/javascript"></script>
-    <script src="js/bootstrap.js" type="text/javascript"></script>
-    <script src="js/imgLiquid.js" type="text/javascript"></script>
-    <script src="js/app.js" type="text/javascript"></script>
 
-    <!--Final de scripts-->
+  <!--Scripts-->
+  <script src="js/jquery.js" type="text/javascript"></script> <!--Siempre al principio de las dependencias-->
+  <script src="js/slick.js" type="text/javascript"></script>
+  <script src="js/bootstrap.js" type="text/javascript"></script>
+  <script src="js/imgLiquid.js" type="text/javascript"></script>
+  <script src="js/app.js" type="text/javascript"></script>
+  <!--Final de scripts-->
 
-  </body>
+</body>
 
-  <!--Footer-->
-  <footer>
-    <?php
-    include "template_parts/footer.php";
-    ?>
-  </footer>
-  <!--End footer-->
+<!--Footer-->
+<footer>
+  <?php
+  include "template_parts/footer.php";
+  ?>
+</footer>
 
-  </html>
+<!--End footer-->
+</html>

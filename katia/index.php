@@ -1,35 +1,7 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Clase 2</title>
-  <!-- estilos-->
-  <link rel="stylesheet" href="css/bootstrap.css">
-  <link rel="stylesheet" href="css/slick.css">
-  <link rel="stylesheet" href="css/slick-theme.css">
-  <link rel="stylesheet" href="css/app.css">
-  <!--fin de estilos-->
-</head>
-<body>
-  <header id="header" class="navbar navbar-expand-lg navbar-light">
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <!-- -->
-    <figure class="navbar-brand"><!--logo-->
-      <img src="img/logok.png" alt="logo">
-    </figure>
-    <nav id="navbarSupportedContent" class="navbar-collapse collapse justify-content-between">
-      <ul class="navbar-nav ml-auto">
-        <li class="menu-item">Elemento 1</li>
-        <li class="menu-item">Elemento 2</li>
-        <li class="menu-item">Elemento 3</li>
-      </ul>
-    </nav>
-  </header>
+<?php include "template_parts/header.php" ?>
 
   <!--heroscreen-->
+
   <section id="index" class="container-fluid no-padding">
     <div class="col-12 no-padding">
 
@@ -60,7 +32,28 @@
 
         <div class="servicio-img col-12">
           <div class="col-12 no-padding imgLiquid imgLiquidFill">
-            <img src="img/imagenkate.jpg" alt="Servicio">
+            <img src="img/imagenkate5.jpg" alt="Servicio">
+          </div>
+        </div>
+
+        <div class="col-12">
+
+          <div class="row">
+
+            <div class="col-12 ha my-auto">
+
+              <h3 class="col-12 text-center">Servicio Dummie</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--fin servicio-->
+      <!--servicios-->
+      <div class="index-servicio col-4 no-padding">
+
+        <div class="servicio-img col-12">
+          <div class="col-12 no-padding imgLiquid imgLiquidFill">
+            <img src="img/imagenkate5.jpg" alt="Servicio">
           </div>
         </div>
 
@@ -81,7 +74,7 @@
 
         <div class="servicio-img col-12">
           <div class="col-12 no-padding imgLiquid imgLiquidFill">
-            <img src="img/imagenkate.jpg" alt="Servicio">
+            <img src="img/imagenkate5.jpg" alt="Servicio">
           </div>
         </div>
 
@@ -102,7 +95,7 @@
 
         <div class="servicio-img col-12">
           <div class="col-12 no-padding imgLiquid imgLiquidFill">
-            <img src="img/imagenkate.jpg" alt="Servicio">
+            <img src="img/imagenkate5.jpg" alt="Servicio">
           </div>
         </div>
 
@@ -123,7 +116,7 @@
 
         <div class="servicio-img col-12">
           <div class="col-12 no-padding imgLiquid imgLiquidFill">
-            <img src="img/imagenkate.jpg" alt="Servicio">
+            <img src="img/imagenkate5.jpg" alt="Servicio">
           </div>
         </div>
 
@@ -144,28 +137,7 @@
 
         <div class="servicio-img col-12">
           <div class="col-12 no-padding imgLiquid imgLiquidFill">
-            <img src="img/imagenkate.jpg" alt="Servicio">
-          </div>
-        </div>
-
-        <div class="col-12">
-
-          <div class="row">
-
-            <div class="col-12 ha my-auto">
-
-              <h3 class="col-12 text center">Servicio Dummie</h3>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!--fin servicio-->
-      <!--servicios-->
-      <div class="index-servicio col-4 no-padding">
-
-        <div class="servicio-img col-12">
-          <div class="col-12 no-padding imgLiquid imgLiquidFill">
-            <img src="img/imagenkate.jpg" alt="Servicio">
+            <img src="img/imagenkate5.jpg" alt="Servicio">
           </div>
         </div>
 
@@ -197,17 +169,17 @@
 
         <!--slide-->
         <div class="team-slide col-12 imgLiquid imgLiquidFill">
-          <img src="img/imagenkate5.jpg" alt="slider">
+          <img src="img/imagenkate2.jpg" alt="slider">
         </div>
         <!--fin del slide-->
         <!--slide-->
         <div class="team-slide col-12 imgLiquid imgLiquidFill">
-          <img src="img/imagenkate5.jpg" alt="slider">
+          <img src="img/imagenkate2.jpg" alt="slider">
         </div>
         <!--fin del slide-->
         <!--slide-->
         <div class="team-slide col-12 imgLiquid imgLiquidFill">
-          <img src="img/imagenkate5.jpg" alt="slider">
+          <img src="img/imagenkate2.jpg" alt="slider">
         </div>
         <!--fin del slide-->
 
@@ -218,13 +190,4 @@
 
   </section>
 
-  <!--script-->
-  <script src="js/jquery.js"></script> <!--por buena práctuca siempre debe de ir el arhcivo jquery-->
-  <script src="js/slick.js"></script>
-  <script src="js/bootstrap.js"></script>
-  <script src="js/imgliquid.js"></script>
-  <script src="js/app.js"></script>
-
-  <!--fin de los script-->
-</body>
-</html>
+<?php include "template_parts/footer.php" ?>

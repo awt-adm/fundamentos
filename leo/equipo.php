@@ -29,9 +29,8 @@
 <?php
 include "template_parts/header.php";
 ?>
-
 <body>
-
+  
   <section id="index" class="container-fluid no-padding" >
     <div class="row col-12 no-padding">
 
@@ -245,17 +244,17 @@ include "template_parts/header.php";
     <br>
 
 
+
     <!--Scripts-->
-    <script src=”https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js”></script>
     <script src="js/jquery.js" type="text/javascript"></script> <!--Siempre al principio de las dependencias-->
     <script src="js/slick.js" type="text/javascript"></script>
     <script src="js/bootstrap.js" type="text/javascript"></script>
     <script src="js/imgLiquid.js" type="text/javascript"></script>
     <script src="js/app.js" type="text/javascript"></script>
-
     <!--Final de scripts-->
 
   </body>
+
 
   <!--Footer-->
   <footer>
@@ -263,6 +262,6 @@ include "template_parts/header.php";
     include "template_parts/footer.php";
     ?>
   </footer>
-  <!--End footer-->
 
+  <!--End footer-->
   </html>
