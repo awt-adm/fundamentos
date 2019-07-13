@@ -14,9 +14,13 @@
   <link rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" href="css/slick.css">
   <link rel="stylesheet" href="css/slick-theme.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="css/app.css">
   <!--fin de estilos-->
+
+  <!--Paginas-->
+  <link rel="stylesheet" href="servicios.php">
+  <link rel="stylesheet" href="equipo.php">
+  <!--End Paginas-->
 
   <title>Wireframe Home</title>
 
