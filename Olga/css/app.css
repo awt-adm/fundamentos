@@ -1,7 +1,6 @@
 /*  Fuentes*/
 @import "https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Ubuntu";
 @import "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
-
 /* variable */
 /* Las variables css se declaran con 2 guiones e igualando a un valor */
 :root {
@@ -23,7 +22,7 @@
   --border-radius: 5px;
   /* Fuentes */
   --font-title: "Open Sans Condensed",sans-serif;
-  --font-content: "Ubuntu";
+  --font-content: "Ubunutu";
 }
 /* General */
 * {/*wireframe*/
