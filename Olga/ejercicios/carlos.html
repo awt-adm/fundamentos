@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ADM Clase 1</title>
+</head>
+<body>
+
+  <h1 id="titulo">Clase 1 fundamentos programacion ADM</h1>
+  <h2 id="subtitulo">Clase 1 fundamentos programacion ADM</h2>
+  <script>
+    // jquery
+    // $(document).ready(function() {
+    //
+    //   alert("Ready jquery")
+    //   console.log("consola jquery");
+    //
+    // })
+
+    //
+    // vanilla JS
+    (//Inicializa
+    function($){
+
+      inicio()
+      estilos()
+      contenido()
+
+    }()
+    )
+
+    function inicio() {
+
+      // alert("Estoy dentro de una funcion")
+      console.log("XXXXXXXX")
+
+    }
+
+    function estilos() {
+
+      document.getElementById("titulo").style.cursor = "pointer";
+      // cursor: pointer;
+      document.getElementById("titulo").style.background = "purple";
+      //background: purple;
+      document.getElementById("titulo").style.color = "whitesmoke";
+      // color: whitesmoke
+    }
+
+    function contenido() {
+
+      let h2 = "subtitulo"
+      document.getElementById(h2).innerHTML = "Nuevo contenido"
+    }
+  </script>
+
+
+</body>
+</html>
