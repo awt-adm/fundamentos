@@ -168,12 +168,12 @@
     <div id="team-slider" class="col-12">
 
       <!--slide-->
-      <div class="team-slider col-12 col-sm-6 col-md-4"><!--tarjeta-->
+      <div class="team-slide col-12 col-sm-6 col-md-4"><!--tarjeta-->
         <a href="#" class="row"><!--link de miembro-->
 
           <header class="header-team col-12 no-padding">
 
-            <div class="col 12 imgLiquidNoFill">
+            <div class="col-12 imgLiquid imgLiquidNoFill">
               <img src="img/fotokatia.jpg" alt="">
             </div>
           </header>
@@ -184,8 +184,8 @@
             <h2 class="col-12 text-center">Katia Márquez</h2>
             <h4 class="col-12 text-center">Alumna</h4>
             <p class="col-12">Muy lejos, más allá de las montañas de palabras, alejados de los países de las vocales y las consonantes, viven los textos simulados. Viven aislados en casas de letras, en la costa de la semántica, un gran océano de lenguas. Un riachuelo llamado Pons fluye por su pueblo y los abastece con las normas necesarias. Hablamos de un país paraisomático en el que a uno le caen pedazos de frases asadas en la boca. Ni siquiera los todopoderosos signos de puntuación dominan a los textos simulados; una vida, se puede decir, poco ortográfica.</p>
-        </div>
-      </a>
+          </div>
+        </a>
         <!--fin de contenido-->
         <!-- slide-->
         <?php include "template_parts/social.php" ?>

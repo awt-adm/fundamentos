@@ -207,9 +207,8 @@ include "template_parts/header.php";
     <!-- slider -->
     <div id="team-slider" class="col-12">
 
-
       <!-- slide -->
-      <div class="team-slide col-12"><!-- tarjeta -->
+      <div class="team-slide col-xs-12 col-md-6 col-lg-4"><!-- tarjeta -->
         <a href="#" class="row"><!-- link -->
           <!--header  -->
           <header class="header-team col-12 no-padding">
