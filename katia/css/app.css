@@ -1,6 +1,7 @@
 /*fuentes*/
 @import "https://fonts.googleapis.com/css?family=Noto+Sans+HK&display=swap";
 @import "https://fonts.googleapis.com/css?family=Montserrat&display=swap";
+@import "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
 
 /* variables */
 /*las variables css se declaran con dos guines e igualando aun valor*/
@@ -106,7 +107,21 @@ header figure img {
   width: 100%;
 }
 
-/* reset */
+/*Team slider*/
+
+#index-team{
+  height: auto;
+}
+
+  .team-slide {
+    height: 420px;
+  }
+
+footer{
+  height: 80px;
+}
+
+/*reset*/
 
 .ha {
 height: auto;
