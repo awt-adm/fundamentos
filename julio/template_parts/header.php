@@ -22,9 +22,9 @@
     </figure>
     <nav id="navbarSupportedContent" class="navbar-collapse collapse justify-content-bewtween">
       <ul class="navbar-nav ml-auto">
-        <li class="menu-item">Elemento 1</li>
-        <li class="menu-item">Elemento 2</li>
-        <li class="menu-item">Elemento 3</li>
+        <li class="menu-item item-header">Elemento 1</li>
+        <li class="menu-item item-header">Elemento 2</li>
+        <li class="menu-item item-header">Elemento 3</li>
       </ul>
     </nav>
   </header>

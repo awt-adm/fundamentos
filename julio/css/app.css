@@ -70,12 +70,24 @@ ul {
 /*header*/
 header {
   min-height: 80px;
+  background-color: var(--color-3);
 }
 
 header figure img {
   height: 80px;
   width: auto;
 }
+
+body {
+  background-color: var(--color-6);
+}
+
+.item-header{
+  padding: 5px;
+  color: var(--color-link);
+}
+
+/*redes sociales*/
 
 .color-twitter {
   background-color: var(--color-twitter);
@@ -97,6 +109,10 @@ header figure img {
 
 #index row {
   position: relative;
+}
+
+#navbarSupportedContent {
+  background-color: var(--color-4);
 }
 
 .index-titulo {
@@ -141,7 +157,7 @@ header figure img {
 
 .team-slide header {
   height: 80px;
-  background-color: var(--color-1);
+  background-color: var(--color-4);
   margin-bottom: 60px;
   position: relative;
 }
@@ -158,7 +174,11 @@ footer {
   height: 50px;
 }
 
+/*estilos generales*/
 
+.footer{
+  background-color: var(--color-5);
+}
 
 /* resets */
 
