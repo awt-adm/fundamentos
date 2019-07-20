@@ -11,8 +11,15 @@
   --color-white: #FFF;
   --color-1: #459210;
   --color-2: red;
-  --color-link: orange;
+  --color-3: #14202b;
+  --color-4: #264067;
+  --color-5: #5080ae;
+  --color-6: #b2c6dd;
+  --color-link: #e14a4c;
   --color-hover: purple;
+  --color-facebook: #8b9dc3;
+  --color-twitter: #00acee;
+  --color-github: #171515;
 
   /*espaciado*/
   --margin-1: 8px;
@@ -70,6 +77,18 @@ header figure img {
   width: auto;
 }
 
+.color-twitter {
+  background-color: var(--color-twitter);
+}
+
+.color-facebook {
+  background-color: var(--color-facebook);
+}
+
+.color-github {
+  background-color: var(--color-github);
+}
+
 /*index*/
 
 #index {
@@ -120,9 +139,26 @@ header figure img {
   margin: 0 auto;
 }
 
+.team-slide header {
+  height: 80px;
+  background-color: var(--color-1);
+  margin-bottom: 60px;
+  position: relative;
+}
+
+.header-team-img {
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  left: 37%;
+  bottom: -50px;
+}
+
 footer {
   height: 50px;
 }
+
+
 
 /* resets */
 

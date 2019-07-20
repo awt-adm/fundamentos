@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="widht=device-widht. initial-scale=1.0">
-  <title>clase 4</title>
+  <title>Grupo ADM</title>
   <!-- estilos -->
   <link rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" href="css/slick.css">

@@ -7,7 +7,7 @@ include "template_parts/header.php";
     <div class="col-12 no-padding">
 
       <div class="col-12 no-padding index-img imgLiquid imgLiquidFill">
-        <img src="img/placeholder.edit.png" alt="">
+        <img src="img/fondo1.jpg" alt="">
       </div>
 
       <div class=" col-12 index-text">
