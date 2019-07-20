@@ -33,7 +33,7 @@
   <section class="page">
 
   </section>
-  
+
   <!-- scripts -->
   <script src="js/jquery.js"></script><!-- jquery siempre al principio de las dependencias -->
   <script src="js/slick.js"></script>
