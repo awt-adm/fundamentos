@@ -1,7 +1,18 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clase 4</title>
+  <!-- estilos -->
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/slick.css">
+  <link rel="stylesheet" href="css/slick-theme.css">
+  <link rel="stylesheet" href="css/app.css">
+  <!-- fin estilos -->
+</head>
 <?php
-
 include "template_parts/header.php";
-
 ?>
 
 <!-- Heroscreen -->
@@ -10,7 +21,7 @@ include "template_parts/header.php";
   <div class="col-12 no-padding">
 
     <div class="col-12 no-padding index-img imgLiquid imgLiquidFill">
-      <img src="img/placeholder.edit.png" alt="">
+      <img src="img/Captura de pantalla 2019-07-20 a la(s) 10.23.46 a.m..png" alt="">
     </div>
 
     <div class="col-12 index-text">
@@ -45,7 +56,7 @@ include "template_parts/header.php";
 
       <div class="servicio-img col-12">
         <div class="col-12 no-padding imgLiquid imgLiquidFill">
-          <img src="img/placeholder.edit.png" alt="Servicio">
+          <img src="img/Captura de pantalla 2019-07-20 a la(s) 10.24.57 a.m..png" alt="Servicio">
         </div>
       </div>
 
@@ -69,7 +80,7 @@ include "template_parts/header.php";
 
       <div class="servicio-img col-12">
         <div class="col-12 no-padding imgLiquid imgLiquidFill">
-          <img src="img/placeholder.edit.png" alt="Servicio">
+          <img src="img/Captura de pantalla 2019-07-20 a la(s) 10.24.44 a.m..png" alt="Servicio">
         </div>
       </div>
 
@@ -93,7 +104,7 @@ include "template_parts/header.php";
 
       <div class="servicio-img col-12">
         <div class="col-12 no-padding imgLiquid imgLiquidFill">
-          <img src="img/placeholder.edit.png" alt="Servicio">
+          <img src="img/Captura de pantalla 2019-07-20 a la(s) 10.24.26 a.m..png" alt="Servicio">
         </div>
       </div>
 
@@ -117,7 +128,7 @@ include "template_parts/header.php";
 
       <div class="servicio-img col-12">
         <div class="col-12 no-padding imgLiquid imgLiquidFill">
-          <img src="img/placeholder.edit.png" alt="Servicio">
+          <img src="img/Captura de pantalla 2019-07-20 a la(s) 10.25.10 a.m..png" alt="Servicio">
         </div>
       </div>
 
@@ -141,7 +152,7 @@ include "template_parts/header.php";
 
       <div class="servicio-img col-12">
         <div class="col-12 no-padding imgLiquid imgLiquidFill">
-          <img src="img/placeholder.edit.png" alt="Servicio">
+          <img src="img/Captura de pantalla 2019-07-20 a la(s) 10.25.26 a.m..png" alt="Servicio">
         </div>
       </div>
 
@@ -165,7 +176,7 @@ include "template_parts/header.php";
 
       <div class="servicio-img col-12">
         <div class="col-12 no-padding imgLiquid imgLiquidFill">
-          <img src="img/placeholder.edit.png" alt="Servicio">
+          <img src="img/Captura de pantalla 2019-07-20 a la(s) 10.53.34 a.m..png" alt="Servicio">
         </div>
       </div>
 
@@ -187,11 +198,58 @@ include "template_parts/header.php";
 
 </section>
 
-<?php
-include "template_parts/social.php";
- ?>
 
+<section id="index-team" class="container">
+
+  <div class="row">
+    <h1 class="index-titulo col-12 text-center">Equipo</h1>
+
+    <!-- slider -->
+    <div id="team-slider" class="col-12">
+
+      <!-- slide -->
+      <div class="team-slide col-xs-12 col-md-6 col-lg-4"><!-- tarjeta -->
+        <a href="#" class="row"><!-- link -->
+          <!--header  -->
+          <header class="header-team col-12 no-padding">
+
+            <div class="col-12 imgLiquid imgLiquidNoFill">
+
+              <img src="img/placeholder.edit.png" alt="Slider">
+
+            </div>
+
+          </header>
+          <!-- fin header -->
+
+          <!-- contenido -->
+          <div class="col-12">
+
+            <h2 class="col-12 text-center">Olga L. Ramirez Graniel</h2>
+            <h4 class="col-12 text-center">Alumna</h4>
+
+            <p class="col-12">Lorem ipsum dolor sit amet, doming doctus vix an.
+              Est in graeco nemore, id odio scribentur nam. Cum in lucilius delicata praesent,
+              eros debitis eu mea. Habeo persecuti ...</p>
+
+          </div>
+          <!-- fin contenido -->
+
+
+
+        </a>
+        <?php include "template_parts/social.php"; ?>
+      </div>
+      <!-- fin slide -->
+
+
+    </div>
+    <!-- fin slider -->
+
+
+  </div><!-- row -->
+</section>
 
 <?php
 include "template_parts/footer.php";
- ?>
+?>
