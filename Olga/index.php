@@ -187,30 +187,10 @@ include "template_parts/header.php";
 
 </section>
 
+<?php
+include "template_parts/social.php";
+ ?>
 
-<section id="index-team" class="container">
-
-  <div class="row">
-
-    <h1 class="index-titulo col-12 text-center">Equipo</h1>
-
-    <!-- slider -->
-    <div id="team-slider" class="col-12">
-
-
-      <!-- slide -->
-      <div class="team-slider col-12 imgLiquid imgLiquidNoFill">
-        <img src="img/placeholder.edit.png" alt="Slider">
-      </div>
-      <!-- fin slide -->
-
-
-    </div>
-    <!-- fin slider -->
-
-
-  </div><!-- row -->
-</section>
 
 <?php
 include "template_parts/footer.php";

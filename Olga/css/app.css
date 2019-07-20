@@ -96,9 +96,15 @@ footer {
   height: 80px;
 }
 /* resets */
+
 .ha {
   height: auto;
 }
 .no-padding {
   padding: 0;
+
+
 }
+  .div-flex{
+
+  }

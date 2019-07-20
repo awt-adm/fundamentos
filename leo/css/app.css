@@ -147,6 +147,7 @@ header figure img{
   position: relative;
   text-align: center;
   height: 100%;
+
 }
 /*End Slider*/
 
@@ -158,10 +159,14 @@ header figure img{
     display: none;
     color: black;
     background-color: lightgray;
-    shape-outside: circle(50%);
+    border-radius: 50%;
+    border: solid 1px;
     height: 30px;
     width: 30px;
+    text-align: center;
+
 }
+
 /*End Footer*/
 
 
