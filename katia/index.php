@@ -161,38 +161,63 @@
 <!--team slider-->
 
 <section id="index-team" class="container">
+
   <div class="row">
     <h1 class="index-titulo col-12 text-center">EQUIPO</h1>
 
     <!--slider-->
     <div id="team-slider" class="col-12">
 
+      <?php
+
+      $nombres = array('Carlos','Patricia','Julio','Karim','Brenda','Katia','Alejandro','Olga','Leo');
+      $cargo = array ('Docente','alumnos');
+
+        for ($i=0; $i < 9; $i++):
+?>
+
       <!--slide-->
-      <div class="team-slide col-12 col-sm-6 col-md-4"><!--tarjeta-->
-        <a href="#" class="row"><!--link de miembro-->
+      <div class="team-slide col-xs-12 col-md-6 col-lg-4"><!--tarjeta-->
+        <a href="#" class="row"><!--link de miembro del equipo-->
+
 
           <header class="header-team col-12 no-padding">
 
-            <div class="col-12 imgLiquid imgLiquidNoFill">
-              <img src="img/fotokatia.jpg" alt="">
+            <div class="header-team-img imgLiquid imgLiquidNoFill">
+
+              <img src="img/fotokatia.jpg" alt="slider">
+
             </div>
+
           </header>
 
           <!-- fin del header-->
           <!--contenido-->
           <div class="col-12">
-            <h2 class="col-12 text-center">Katia Márquez</h2>
-            <h4 class="col-12 text-center">Alumna</h4>
+            <h2 class="col-12 text-center"><?php echo $nombres[$i]; ?></h2>
+            <h4 class="col-12 text-center">
+<?php
+
+if ($nombres[$i] === $nombres[0]):
+  echo $cargo[0];
+
+else:
+
+echo $cargo[1];
+
+endif;
+?>
+            </h4>
             <p class="col-12">Muy lejos, más allá de las montañas de palabras, alejados de los países de las vocales y las consonantes, viven los textos simulados. Viven aislados en casas de letras, en la costa de la semántica, un gran océano de lenguas. Un riachuelo llamado Pons fluye por su pueblo y los abastece con las normas necesarias. Hablamos de un país paraisomático en el que a uno le caen pedazos de frases asadas en la boca. Ni siquiera los todopoderosos signos de puntuación dominan a los textos simulados; una vida, se puede decir, poco ortográfica.</p>
           </div>
         </a>
         <!--fin de contenido-->
         <!-- slide-->
-        <?php include "template_parts/social.php" ?>
+        <?php //include "template_parts/social.php"; ?>
       </div>
 
       <!--fin del slide-->
-
+<?php endfor; ?>
     </div>
     <!--fin de slider-->
 
@@ -200,4 +225,4 @@
 
 </section>
 
-<?php include "template_parts/footer.php" ?>
+<?php include "template_parts/footer.php"; ?>

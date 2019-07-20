@@ -11,7 +11,6 @@
     ?>
     <!--  -->
     <li class="col-2">
-      <?php echo count($redes) ?>
       <a href="<?php echo $links[$i]; ?>" target="_blank">
         <i class="fa fa-<?php echo $redes[$i] ?>"></i>
       </a>
@@ -19,3 +18,6 @@
     <!--  -->
   <?php endfor; ?>
 </ul>
+
+
+<!--?php echo count($redes) ?-->
