@@ -17,11 +17,6 @@
   <link rel="stylesheet" href="css/app.css">
   <!--fin de estilos-->
 
-  <!--Paginas-->
-  <link rel="stylesheet" href="servicios.php">
-  <link rel="stylesheet" href="equipo.php">
-  <!--End Paginas-->
-
   <title>Wireframe Home</title>
 
 </head>
@@ -205,8 +200,9 @@ include "template_parts/header.php";
 
 
     <!--Scripts-->
-    <script src=”https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js”></script>
     <script src="js/jquery.js" type="text/javascript"></script> <!--Siempre al principio de las dependencias-->
+    <script src=”js/jquery.min.js”></script>
+    <script src=”https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js”></script>
     <script src="js/slick.js" type="text/javascript"></script>
     <script src="js/bootstrap.js" type="text/javascript"></script>
     <script src="js/imgLiquid.js" type="text/javascript"></script>

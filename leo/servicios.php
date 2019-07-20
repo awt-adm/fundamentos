@@ -17,11 +17,6 @@
   <link rel="stylesheet" href="css/app.css">
   <!--fin de estilos-->
 
-  <!--Paginas-->
-  <link rel="stylesheet" href="servicios.php">
-  <link rel="stylesheet" href="equipo.php">
-  <!--End Paginas-->
-
   <title>Wireframe Home</title>
 
 </head>

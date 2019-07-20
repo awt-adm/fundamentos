@@ -17,11 +17,6 @@
   <link rel="stylesheet" href="css/app.css">
   <!--fin de estilos-->
 
-  <!--Paginas-->
-  <link rel="stylesheet" href="servicios.php">
-  <link rel="stylesheet" href="equipo.php">
-  <!--End Paginas-->
-
   <title>Wireframe Home</title>
 
 </head>
@@ -29,8 +24,9 @@
 <?php
 include "template_parts/header.php";
 ?>
+
 <body>
-  
+
   <section id="index" class="container-fluid no-padding" >
     <div class="row col-12 no-padding">
 
