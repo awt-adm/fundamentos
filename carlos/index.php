@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Clase 4</title>
+  <title>Clase </title>
   <!-- estilos -->
   <link rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" href="css/slick.css">
@@ -43,160 +43,9 @@ include "template_parts/header.php";
 
 </section>
 
-<!-- Servicios -->
-<section id="index-servicios" class="container">
 
-  <div class="row">
+<?php include "template_parts/servicios-content.php"; ?>
 
-    <h1 class="index-titulo col-12 text-center">Servicios</h1>
-
-    <!-- servicio -->
-    <div class="index-servicio col-4 no-padding">
-
-
-      <div class="servicio-img col-12">
-        <div class="col-12 no-padding imgLiquid imgLiquidFill">
-          <img src="img/placeholder.edit.png" alt="Servicio">
-        </div>
-      </div>
-
-      <div class="col-12">
-
-        <div class="row">
-
-          <div class="col-12 ha my-auto index-text">
-            <h3 class="col-12 text-center">Servicio Dummie</h3>
-          </div>
-
-        </div>
-
-      </div>
-
-    </div>
-    <!-- fin servicio -->
-    <!-- servicio -->
-    <div class="index-servicio col-4 no-padding">
-
-
-      <div class="servicio-img col-12">
-        <div class="col-12 no-padding imgLiquid imgLiquidFill">
-          <img src="img/placeholder.edit.png" alt="Servicio">
-        </div>
-      </div>
-
-      <div class="col-12">
-
-        <div class="row">
-
-          <div class="col-12 ha my-auto index-text">
-            <h3 class="col-12 text-center">Servicio Dummie</h3>
-          </div>
-
-        </div>
-
-      </div>
-
-    </div>
-    <!-- fin servicio -->
-    <!-- servicio -->
-    <div class="index-servicio col-4 no-padding">
-
-
-      <div class="servicio-img col-12">
-        <div class="col-12 no-padding imgLiquid imgLiquidFill">
-          <img src="img/placeholder.edit.png" alt="Servicio">
-        </div>
-      </div>
-
-      <div class="col-12">
-
-        <div class="row">
-
-          <div class="col-12 ha my-auto index-text">
-            <h3 class="col-12 text-center">Servicio Dummie</h3>
-          </div>
-
-        </div>
-
-      </div>
-
-    </div>
-    <!-- fin servicio -->
-    <!-- servicio -->
-    <div class="index-servicio col-4 no-padding">
-
-
-      <div class="servicio-img col-12">
-        <div class="col-12 no-padding imgLiquid imgLiquidFill">
-          <img src="img/placeholder.edit.png" alt="Servicio">
-        </div>
-      </div>
-
-      <div class="col-12">
-
-        <div class="row">
-
-          <div class="col-12 ha my-auto index-text">
-            <h3 class="col-12 text-center">Servicio Dummie</h3>
-          </div>
-
-        </div>
-
-      </div>
-
-    </div>
-    <!-- fin servicio -->
-    <!-- servicio -->
-    <div class="index-servicio col-4 no-padding">
-
-
-      <div class="servicio-img col-12">
-        <div class="col-12 no-padding imgLiquid imgLiquidFill">
-          <img src="img/placeholder.edit.png" alt="Servicio">
-        </div>
-      </div>
-
-      <div class="col-12">
-
-        <div class="row">
-
-          <div class="col-12 ha my-auto index-text">
-            <h3 class="col-12 text-center">Servicio Dummie</h3>
-          </div>
-
-        </div>
-
-      </div>
-
-    </div>
-    <!-- fin servicio -->
-    <!-- servicio -->
-    <div class="index-servicio col-4 no-padding">
-
-
-      <div class="servicio-img col-12">
-        <div class="col-12 no-padding imgLiquid imgLiquidFill">
-          <img src="img/placeholder.edit.png" alt="Servicio">
-        </div>
-      </div>
-
-      <div class="col-12">
-
-        <div class="row">
-
-          <div class="col-12 ha my-auto index-text">
-            <h3 class="col-12 text-center">Servicio Dummie</h3>
-          </div>
-
-        </div>
-
-      </div>
-
-    </div>
-    <!-- fin servicio -->
-  </div>
-
-</section>
 
 
 <section id="index-team" class="container">
@@ -206,40 +55,117 @@ include "template_parts/header.php";
 
     <!-- slider -->
     <div id="team-slider" class="col-12">
+      <?php
 
-      <!-- slide -->
-      <div class="team-slide col-xs-12 col-md-6 col-lg-4"><!-- tarjeta -->
-        <a href="#" class="row"><!-- link-->
-          <!--header  -->
-          <header class="header-team col-12 no-padding">
+      $nombres = array('Carlos','Patricia','Julio','Karim','Brenda','Katia','Alejandro','Olga','Leo','Santiago');
+      $cargo = array('Docente', 'Asistente', 'Alumno',"Director","Subdirector","Prefecto");
+      $textos = array(
+        "Lorem ipsum dolor sit amet, ex tamquam patrioque expetendis eam, ei viderer dolorum constituam pro, nam aliquip electram et. Eum eu integre moderatius, ne fabulas graecis pro, dico suas duo ut.",
+        "Nam te evertitur tincidunt disputando, sed cu hinc signiferumque. In sit putant suscipit erroribus, no labore platonem vis. Usu timeam fastidii intellegam ei, has illud audire consulatu te. Per ei laudem quaerendum, at vix omnis aperiri fabulas.",
+        "Ut etiam dissentiunt usu. Et cum natum vivendo referrentur. Ut brute cetero pro, ad omnium latine vim, iisque iuvaret invenire id qui. Odio essent indoctum eum eu, ullum dolore ceteros ea quo. Eripuit noluisse pri.",
+        "Lorem ipsum dolor sit amet, ex tamquam patrioque expetendis eam, ei viderer dolorum constituam pro, nam aliquip electram et. Eum eu integre moderatius, ne fabulas graecis pro, dico suas duo ut.",
+        "Nam te evertitur tincidunt disputando, sed cu hinc signiferumque. In sit putant suscipit erroribus, no labore platonem vis. Usu timeam fastidii intellegam ei, has illud audire consulatu te. Per ei laudem quaerendum, at vix omnis aperiri fabulas.",
+        "Ut etiam dissentiunt usu. Et cum natum vivendo referrentur. Ut brute cetero pro, ad omnium latine vim, iisque iuvaret invenire id qui. Odio essent indoctum eum eu, ullum dolore ceteros ea quo. Eripuit noluisse pri.",
+        "Lorem ipsum dolor sit amet, ex tamquam patrioque expetendis eam, ei viderer dolorum constituam pro, nam aliquip electram et. Eum eu integre moderatius, ne fabulas graecis pro, dico suas duo ut.",
+        "Nam te evertitur tincidunt disputando, sed cu hinc signiferumque. In sit putant suscipit erroribus, no labore platonem vis. Usu timeam fastidii intellegam ei, has illud audire consulatu te. Per ei laudem quaerendum, at vix omnis aperiri fabulas.",
+        "Ut etiam dissentiunt usu. Et cum natum vivendo referrentur. Ut brute cetero pro, ad omnium latine vim, iisque iuvaret invenire id qui. Odio essent indoctum eum eu, ullum dolore ceteros ea quo. Eripuit noluisse pri.",
+        "Nam te evertitur tincidunt disputando, sed cu hinc signiferumque. In sit putant suscipit erroribus, no labore platonem vis. Usu timeam fastidii intellegam ei, has illud audire consulatu te. Per ei laudem quaerendum, at vix omnis aperiri fabulas.",
+      );
 
-            <div class="header-team-img imgLiquid imgLiquidNoFill">
+      for ($i=0; $i < count($nombres); $i++):
 
-              <img src="img/placeholder.edit.png" alt="Slider">
+        ?>
+        <!-- slide -->
+        <div class="team-slide col-xs-12 col-md-6 col-lg-4"><!-- tarjeta -->
+          <a href="#" class="row"><!-- link -->
+            <!--header  -->
+            <header class="header-team col-12 no-padding">
 
-            </div>
+              <div class="header-team-img imgLiquid imgLiquidNoFill">
 
-          </header>
-          <!-- fin header -->
+                <img src="img/placeholder.edit.png" alt="Slider">
 
-          <!-- contenido -->
-          <div class="col-12">
+              </div>
 
-            <h2 class="col-12 text-center">Jose Carlos Hasbun</h2>
-            <h4 class="col-12 text-center">Docente</h4>
+            </header><!-- fin header -->
+            <div class="col-12"><!-- contenido -->
 
-            <p class="col-12">Lorem ipsum dolor sit amet, doming doctus vix an. Est in graeco nemore, id odio scribentur nam. Cum in lucilius delicata praesent, eros debitis eu mea. Habeo persecuti ...</p>
+              <h2 class="col-12 text-center"><?php echo $nombres[$i] ?></h2>
 
-          </div>
-          <!-- fin contenido -->
+              <h4 class="col-12 text-center">
+
+                <?php
+
+                // if ($nombres[$i] === $nombres[0]):
+                //
+                //   echo $cargo[0];
+                //
+                //   elseif($nombres[$i] === 'Leo'):
+                //
+                //     echo $cargo[1];
+                //
+                //   else:
+                //
+                //     echo $cargo[2];
+                //
+                //   endif;
+                //   ?>
+
+
+                <?php
+                switch ($nombres[$i]) {
+                  case 'Carlos':
+                  echo $cargo[0];
+                  break;
+                  case 'Patricia':
+                  echo $cargo[4];
+                  break;
+                  case 'Julio':
+                  echo $cargo[3];
+                  break;
+                  case 'Karim':
+                  echo $cargo[4];
+                  break;
+                  case 'Brenda':
+                  echo $cargo[2];
+                  break;
+                  case 'Katia':
+                  echo $cargo[2];
+                  break;
+                  case 'Alejandro':
+                  echo $cargo[5];
+                  break;
+                  case 'Olga':
+                  echo $cargo[2];
+                  break;
+                  case 'Leo':
+                  echo $cargo[1];
+                  break;
+                  case 'Santiago':
+                  echo $cargo[2];
+                  break;
+                  default:
+                  echo "Valor Deafult";//no se cumple
+                  break;
+                }
+
+
+                ?>
 
 
 
-        </a>
-        <?php include "template_parts/social.php"; ?>
-      </div>
-      <!-- fin slide -->
+              </h4>
 
+              <p class="col-12">
+                <?php echo $textos[$i]; ?>
+              </p>
+
+            </div><!-- fin contenido -->
+          </a>
+        </div>
+        <!-- fin slide -->
+
+      <?php endfor; ?>
 
     </div>
     <!-- fin slider -->

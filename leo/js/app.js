@@ -1,10 +1,18 @@
 $(document).ready(()=>{
 
+  //*alert("ooskfokoe")*//
+
   imgLiquid()
   indexSlider()
   flex()
 
 })
+
+//Ready con JS
+//(function($) {
+//alert("Vanilla JS")
+//})
+//()
 
 function imgLiquid(){
 
@@ -17,7 +25,6 @@ function imgLiquid(){
 }
 
 function indexSlider() {
-  //*alert("ooskfokoe")*//
 
   $('.team-slider').slick({
     autoplay: true,
@@ -49,12 +56,11 @@ $(document).ready(function(){
 });
 
 function flex(){
-//buscardiv
+//buscar div
 let caja = $(".slick-slide div:nth-child(1)")
 
 //ponerle clase
 caja.addClass("div-flex")
 //$('.team-slider div').addClass("div-flex")
-
 
 }
