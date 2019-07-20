@@ -2,8 +2,8 @@
 $(document).ready(()=>{
 
   imagenes()
- indexSlider()
- flex()
+  indexSlider()
+  flex()
 
 })
 // Ready con puro JS
