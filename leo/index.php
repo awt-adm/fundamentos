@@ -17,11 +17,6 @@
   <link rel="stylesheet" href="css/app.css">
   <!--fin de estilos-->
 
-  <!--Paginas-->
-  <link rel="stylesheet" href="servicios.php">
-  <link rel="stylesheet" href="equipo.php">
-  <!--End Paginas-->
-
   <title>Wireframe Home</title>
 
 </head>
@@ -197,57 +192,17 @@ include "template_parts/header.php";
     <!--Fin portfolio-->
 
     <!--Wrapper Slider-->
-    <section id="index-team" class="container-fluid">
-
-      <div class="row">
-
-        <h1 class="index-titulo col-12 text-center">TEAM</h1>
-
-        <div id="team-slider" class="team-slider col-12">
-
-          <div class="team-slide col-12 imgLiquid imgLiquidFill">
-            <img src="img/placeholder-slide.png" alt="">
-            <h3>Contact 1</h3>
-            <div class="contact imgLiquid imgLiquidFill col-4">
-              <img class="avatar" src="img/Team-Member-Male-Placeholder.png" alt="">
-            </div>
-            <div class="info-contact">
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-            </div>
-          </div>
-
-          <div class="team-slide col-12 imgLiquid imgLiquidFill">
-            <img src="img/placeholder-slide.png" alt="">
-            <h3>Contact 2</h3>
-            <div class="contact imgLiquid imgLiquidFill col-4">
-              <img class="avatar" src="img/Team-Member-Male-Placeholder.png" alt="">
-            </div>
-            <div class="info-contact">
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-            </div>
-          </div>
-
-          <div class="team-slide col-12 imgLiquid imgLiquidFill">
-            <img src="img/placeholder-slide.png" alt="">
-            <h3>Contact 3</h3>
-            <div class="contact imgLiquid imgLiquidFill col-4">
-              <img class="avatar" src="img/Team-Member-Male-Placeholder.png" alt="">
-            </div>
-            <div class="info-contact">
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-            </div>
-          </div>
-
-        </div>
-      </div>
-    </section>
+    <?php
+    include "template_parts/social.php";
+    ?>
     <!--End Wrapper Slider-->
     <br>
 
 
     <!--Scripts-->
-    <script src=”https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js”></script>
     <script src="js/jquery.js" type="text/javascript"></script> <!--Siempre al principio de las dependencias-->
+    <script src=”js/jquery.min.js”></script>
+    <script src=”https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js”></script>
     <script src="js/slick.js" type="text/javascript"></script>
     <script src="js/bootstrap.js" type="text/javascript"></script>
     <script src="js/imgLiquid.js" type="text/javascript"></script>

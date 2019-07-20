@@ -162,7 +162,6 @@ include "template_parts/header.php";
 
             </div><!-- fin contenido -->
           </a>
-          <?php //include "template_parts/social.php"; ?>
         </div>
         <!-- fin slide -->
 

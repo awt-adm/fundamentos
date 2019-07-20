@@ -29,7 +29,7 @@
                 "https://linkedin.com"
               );
               /*arreglo absoulto para links en orden*/
-              
+
               /*echo var_dump ($redes) te devuelve los valores del array como tal no procesados*/
               for ($i = 0; $i < count($redes); $i++):
                 ?>
@@ -51,6 +51,8 @@
     </div>
   </div>
 </footer>
+
+<!--Button to top-->
 
 <div class="container-fluid">
   <a id="back-to-top" href="#header" role="button"> <i class="fa fa-chevron-up" aria-hidden="true"></i></a>

@@ -19,7 +19,7 @@
     </button>
     <!--  -->
     <figure class="navbar-brand"><!-- logo -->
-      <img src="img/placeholder.edit.png" alt="Logo">
+      <img src="img/Captura de pantalla 2019-07-20 a la(s) 10.22.51 a.m..png" alt="Logo">
     </figure>
     <nav id="navbarSupportedContent" class="navbar-collapse collapse justify-content-between">
       <ul class="navbar-nav ml-auto">

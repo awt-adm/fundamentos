@@ -147,25 +147,27 @@ header figure img{
   position: relative;
   text-align: center;
   height: 100%;
+
 }
 /*End Slider*/
 
 /*Footer*/
-#back-to-top {
-    position: fixed;
-    bottom: 25px;
-    right: 25px;
-    display: none;
-    color: black;
-    background-color: lightgray;
-    shape-outside: circle(50%);
-    height: 30px;
-    width: 30px;
+#back-to-top{
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  border: solid 1px;
+  text-align: center;
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  display: none;
+  color: black;
+  background-color: lightgray;
+
 }
+
 /*End Footer*/
-
-
-
 
 /*RESETS*/
 .ha {
