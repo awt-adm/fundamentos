@@ -31,7 +31,10 @@ include "template_parts/header.php";
         <div class="col-12 my-auto ha">
 
           <h1 class="col-12 text-center">TITULO DE AGENCIA</h1>
-          <p class="col-12 text-center">Mea at alii fabellas, iuvaret aliquid tractatos mea at, verear scripserit ea nam. In mel gubergren reprimique, in movet quando ius. Nihil aeterno ne cum, sea erat intellegam at. An consequat urbanitas has. Id his volutpat praesent, ut zril aliquip quo.</p>
+          <p class="col-12 text-center">Mea at alii fabellas, iuvaret aliquid
+            tractatos mea at, verear scripserit ea nam. In mel gubergren reprimique,
+            in movet quando ius. Nihil aeterno ne cum, sea erat intellegam at. An
+            consequat urbanitas has. Id his volutpat praesent, ut zril aliquip quo.</p>
 
         </div>
 
@@ -206,7 +209,12 @@ include "template_parts/header.php";
 
     <!-- slider -->
     <div id="team-slider" class="col-12">
+  <<?php
+  $nombre = array('carlos','patricia','julio','karim','brenda','katia','alejandro','olga','leo');
+  $cargo = array('Docente','Alumno');
 
+  for($i=0; $i <9; $i++):
+     ?>
       <!-- slide -->
       <div class="team-slide col-xs-12 col-md-6 col-lg-4"><!-- tarjeta -->
         <a href="#" class="row"><!-- link -->
@@ -215,18 +223,29 @@ include "template_parts/header.php";
 
             <div class="col-12 imgLiquid imgLiquidNoFill">
 
-              <img src="img/placeholder.edit.png" alt="Slider">
+
+              <img src="img/slider.png" alt="Slider">
+
 
             </div>
 
           </header>
+
           <!-- fin header -->
 
           <!-- contenido -->
           <div class="col-12">
 
-            <h2 class="col-12 text-center">Olga L. Ramirez Graniel</h2>
+            <h2 class="col-12 text-center"> <?php echo $nombres[$i];?></h2>
             <h4 class="col-12 text-center">Alumna</h4>
+             <?php if ($nombres[$i] === $nombres[0]):
+                  echo $cargo[0];
+             else:
+               echo $cargo[1];
+
+             endif;  ?>
+
+           </h4>
 
             <p class="col-12">Lorem ipsum dolor sit amet, doming doctus vix an.
               Est in graeco nemore, id odio scribentur nam. Cum in lucilius delicata praesent,
@@ -238,10 +257,10 @@ include "template_parts/header.php";
 
 
         </a>
-        <?php include "template_parts/social.php"; ?>
+        <?php //include "template_parts/social.php"; ?>
       </div>
       <!-- fin slide -->
-
+<?php endfor; ?>
 
     </div>
     <!-- fin slider -->
