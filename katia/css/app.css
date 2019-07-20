@@ -109,13 +109,8 @@ header figure img {
 }
 
 /*index slider*/
+
 #index-team {
-  height: 320px;
-}
-
-/*Team slider*/
-
-#index-team{
   height: auto;
 }
 
@@ -124,8 +119,23 @@ header figure img {
     margin: 0 auto;
   }
 
-footer{
+.team-slide header {
   height: 80px;
+  background-color: var(--color-1);
+  margin-bottom: 60px;
+  position: relative;
+}
+
+.header-team-img {
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  left: 38%;
+  bottom: -50px;
+}
+
+footer{
+  height: 50px;
 }
 
 /*reset*/
